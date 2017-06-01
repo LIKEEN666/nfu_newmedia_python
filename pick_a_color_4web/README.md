@@ -18,7 +18,6 @@ pick_a_date_4web
 * [opencv](http://opencv.org/)
 ### 数据
 http://guangzhou.tianqi.com/
-* [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
 ### API
 * [github](https://api.github.com/)
 
