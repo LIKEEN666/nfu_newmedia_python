@@ -19,7 +19,7 @@ pick_a_date_4web
 ### 数据
 http://guangzhou.tianqi.com/
 ### API
-* [github](https://api.github.com/)
+* [github]http://m.weather.com.cn/mweather/101010100.shtml)
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
