@@ -14,12 +14,12 @@ pick_a_date_4web
 用户得到输出结果为：该日期所对应的当天天气
 ## 从输入到输出，本组作品使用了：
 ### 模块
- [requests](http://guangzhou.tianqi.com/)
-* [opencv](http://opencv.org/)
+ [requests](http://m.weather.com.cn/mweather/101280101.shtml)
+
 ### 数据
-http://guangzhou.tianqi.com/
+http://m.weather.com.cn/mweather/101280101.shtml
 ### API
-* [github]http://m.weather.com.cn/mweather/101010100.shtml)
+[github](http://m.weather.com.cn/mweather/101280101.shtml)
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
