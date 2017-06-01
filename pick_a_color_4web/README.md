@@ -1,4 +1,4 @@
-pick_a_color_4web
+pick_a_date_4web
 
 
 		英文项目名称，必需取名合理，是目录名亦是.py後端程序（此行完成後应删）
@@ -14,9 +14,10 @@ pick_a_color_4web
 用户得到输出结果为：该日期所对应的天气
 ## 从输入到输出，本组作品使用了：
 ### 模块
-* [requests](https://github.com/python-visualization/folium)
+ [requests](http://guangzhou.tianqi.com/)
 * [opencv](http://opencv.org/)
 ### 数据
+http://guangzhou.tianqi.com/
 * [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
 ### API
 * [github](https://api.github.com/)
