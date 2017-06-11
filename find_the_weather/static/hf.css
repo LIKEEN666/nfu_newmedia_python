@@ -1,13 +1,16 @@
-body {
-  font-family:      Verdana, Geneva, Arial, sans-serif;
-  font-size:        medium;
-  background-color: tan;
-  margin-top:       5%;
-  margin-bottom:    5%;
-  margin-left:      10%;
-  margin-right:     10%;
-  padding:          10px 10px 10px 10px;
-}
+body{
+
+            background:url(天气图.jpg) center center;
+
+            background-size:cover;
+
+            margin:0;
+
+            padding:0;
+
+            position:relative;
+
+        }
 a {
   text-decoration:  none; 
   font-weight:      600; 
