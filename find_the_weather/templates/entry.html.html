@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>欢迎使用广州天气查询工具</h2>
+
+<form method='POST' action='/pick_a_date'>
+<table>
+<th colspan="2">请选取日期：</th>
+<tr><td>日期: </td><td><input type="date" name="user_date" /></td></tr>
+</table>
+<p>准备就绪后, 单击此按钮：</p>
+<p><input value='寻找！' type='SUBMIT'></p>
+</form>
+
+
+{% endblock %}
