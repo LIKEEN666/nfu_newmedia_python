@@ -1,4 +1,4 @@
-Find_the_weather in Guangzhou
+Find_the_weather
 
 
 		
