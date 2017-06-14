@@ -17,6 +17,7 @@ def pick_a_date() -> 'html':
     return render_template('results.html',
                            the_title = '以下是您选取的日期：',
                            the_date = user_date,
+                           the_results=results
                            )
 
 if __name__ == '__main__':
