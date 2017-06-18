@@ -9,7 +9,20 @@
 <th colspan="2">请选取日期：</th>
 <tr><td>日期: </td><td><input type="date" name="user_date" /></td></tr>
 </table>
-<p>准备就绪后, 单击此按钮：</p>
+
+ <form method='POST' action='/pick_city'>
+<table align="center">
+<th colspan="2">请输入城市：</th>
+
+<td>
+<select name="city">
+  {% for item in the_user_city %}
+  
+    <option value="{{item}}">{{item}}</option>
+
+  {% endfor %}
+
+  <p>准备就绪后, 单击此按钮：</p>
 <p><input value='寻找！' type='SUBMIT'></p>
 </form>
 <body background="天气图.jpg">
