@@ -8,7 +8,7 @@ app = Flask(__name__)
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上广州天气查询！')
+                           the_title='欢迎来到网上天气查询！')
 
 @app.route('/pick_a_date', methods=['POST'])
 def pick_a_date() -> 'html':
