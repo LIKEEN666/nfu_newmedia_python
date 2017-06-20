@@ -5,10 +5,12 @@ app = Flask(__name__)
 
 @app.route('/content', methods=['POST'])
 def show_content() -> 'html':
-    city = request.form['city']
-    results = find_the_weather(city)
+    date = request.form['data']
+    results = find_the_weather
     return render_template('results.html',
-                           the_day_weather=results)
+                           the_date=date,
+                           the_day_weather=results[1],
+                          )
 
 @app.route('/')
 @app.route('/entry')
