@@ -9,7 +9,7 @@ def get_the_weather(city_name):
         if city_name in lines:
           city_data=line.split('=')[0].strip()
    #各个城市天气状况的Api
-   url = ('https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=beijing&language=zh-Hans&unit=c'.format(location=city_code))
+   url = ('https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c'.format(location=city_name))
 
         response = urllib.request.urlopen(url)
         weather_html = response.read()
