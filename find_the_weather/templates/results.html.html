@@ -1,15 +1,14 @@
 {% extends 'base.html' %}
 
 {% block body %}
+<h1 align="center">天气查询结果如下</h1>
 
-<table  bordercolor="white">
+<table align="center" border="1px" cellspacing="0px" bordercolor="white">
 
 <tr> 
-  <td>天气情况</td> 
+  <td>温度</td> <td>{{the_temperature}}</td>
+<tr>
+  <td>天气现象</td>  <td>{{the_condition}}</td>
 
 
-<p>在中国天气网中搜索</p>
-<blockquote></blockquote>
-<p>得到以下天气：</p>
-</table>
 {% endblock %}
