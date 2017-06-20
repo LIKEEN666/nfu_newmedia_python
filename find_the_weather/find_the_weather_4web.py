@@ -3,6 +3,13 @@ from flask import Flask, render_template, request, escape
 
 app = Flask(__name__)
 
+@app.route('/content', methods=['POST'])
+def show_content() -> 'html':
+    city = request.form['city']
+    results = find_the_weather(city)
+    return render_template('results.html',
+                           the_day_weather=results)
+
 @app.route('/')
 @app.route('/entry')
 def entry_page() -> 'html':
