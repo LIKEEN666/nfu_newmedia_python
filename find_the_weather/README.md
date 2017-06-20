@@ -19,7 +19,7 @@ Find_the_weather
 ### 数据
 http://m.weather.com.cn/mweather/101280101.shtml
 ### API
-[github](http://m.weather.com.cn/mweather/101280101.shtml)
+https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
