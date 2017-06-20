@@ -10,12 +10,14 @@
 <tr><td>日期: </td><td><input type="date" name="user_date" /></td></tr>
 </table>
 
- <form method='POST' action='/pick_city'>
+ <form method='POST' action='/pick_a_city'>
 <table align="center">
 <th colspan="2">请输入城市：</th>
 
 <td>
 <select name="city">
+ <tr><td>城市: </td><td><input type="city" name="user_city" /></td></tr>
+</table>
   {% for item in the_user_city %}
   
     <option value="{{item}}">{{item}}</option>
