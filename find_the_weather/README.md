@@ -14,8 +14,7 @@ Find_the_weather
 用户得到输出结果为：该日期所对应的当天天气
 ## 从输入到输出，本组作品使用了：
 ### 模块
-urllib.request
-
+•[urllib.request]
 ### 数据
 http://m.weather.com.cn/mweather/101280101.shtml
 ### API
