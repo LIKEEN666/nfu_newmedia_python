@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, escape
 app = Flask(__name__)
 
 @app.route('/pick_a_date', methods=['POST'])
-def show_pick_a_date() -> 'html':
+def pick_a_date() -> 'html':
     date = request.form['date']
     city = request.form['city']
     results = find_the_weather
