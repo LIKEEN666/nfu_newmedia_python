@@ -1,4 +1,4 @@
-
+the_
 # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
 
@@ -12,7 +12,9 @@ def show_pick_a_date() -> 'html':
     return render_template('results.html',
                            the_title = '以下是您所查询的天气：',
                            the_date=date,
-                           the_day_weather=results[1],
+                           the_weather=results[1],
+                           the_weather_condition=results[2]
+                           
                           )
 
 @app.route('/')
