@@ -1,19 +1,17 @@
 
 # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
+from main import find_the_weather
 
 app = Flask(__name__)
 
 @app.route('/pick_a_date', methods=['POST'])
 def pick_a_date() -> 'html':
-    date = request.form['date']
     city = request.form['city']
-    results = find_the_weather
+    results = find_the_weather(city)
     return render_template('results.html',
                            the_title = '以下是您所查询的天气：',
-                           the_date=date,
-                           the_temperature=results[1],
-                           the_condition=results[2]
+                           the_results = results
                            
                           )
 
