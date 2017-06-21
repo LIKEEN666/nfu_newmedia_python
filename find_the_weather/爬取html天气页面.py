@@ -1,5 +1,5 @@
 import requests,json
-def get_the_weather(city_name):
+def find_the_weather(city_name):
     try:
         with open('各城市代码（尝试除广州外的其他城市天气）.txt',encoding='utf-8')as g:
             lines=g.readlines()
