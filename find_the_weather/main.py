@@ -6,7 +6,7 @@ def find_the_weather(city_name):
         weather_html = response.read()
         json_data = json.loads(weather_html)
         
-        return json_data()
+        return [json_data()]
     
   
 
