@@ -27,9 +27,9 @@ Web App动作描述
 
 前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
-後端伺服器web 响应：find_the_weather.py 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版templates/entry.html会出现《欢迎来到网上天气查询！》的HTML页面
+後端伺服器web 响应：find_the_weather.py 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版templates/entry.html会出现《欢迎使用天气查询工具》的HTML页面
 
-前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'city’和‘date’，，详见HTML模版templates/entry.html
+前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'city’和‘date’，详见HTMLtemplates/entry.html
 
 前端浏览器web 请求：用户选取指标後按了提交钮「寻找」，则产生新的web 请求，按照form元素中定义的method='POST' action='/pick_a_date'，以POST为方法，动作为／find_the_weather web 请求
 
@@ -45,4 +45,4 @@ find_the_weather_4web.py 中 def pick_a_date() 函数，把用户提交的数据
 见[_team_.tsv](_team_/_team_.tsv)
 
 
-		成员列表，统计用，一人一行，输入Github 帐户名即可（此行完成後应删）
+
