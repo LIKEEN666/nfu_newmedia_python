@@ -15,7 +15,7 @@ Find_the_weather
 ### 模块
 •requests
 ### 数据
-city_name.txt
+•city_name.txt
 ### API
 https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c
 心知天气api（免费获取温度和天气现象,该api可预知未来三天的天气/每日可免费获取400次）
@@ -38,7 +38,7 @@ Web App动作描述
 
 find_the_weather_4web.py 中 def pick_a_date() 函数，把用户提交的数据，以flask 模块request.form['city']和['date']	取到Web 请求中，再使用flask模块render_template 函数以templates/results.html模版为基础（输出）。
 
-前端浏览器收到web 响应：模版中templates/results.html 的变数值正确的产生的话，前端浏览器会收到正确响应，看到指标的相关元数据。
+前端浏览器收到web 响应：模版中templates/results.html 的变数值正确的产生的话，前端浏览器会收到正确响应,显示信息。
 
 
 
