@@ -9,15 +9,15 @@ Find_the_weather
 	
 
 ## 输入：
-日期（可下拉选择），城市（手动输入所想要的城市）见templates/entry.html
+日期（可下拉选择），城市（手动输入所想要的城市）见  tempaltes/entry.html
 ## 输出：
-预期用户得到输出结果为：该日期和该地所对应的天气温度和此时的天气现象（例如小雨，晴，暴雨等等），  见templates/results.html
+预期用户得到输出结果为：该日期和该地所对应的天气温度和此时的天气现象（例如小雨，晴，暴雨等等），  见  templates/results.html
 ## 从输入到输出，本组作品使用了：
 ### 模块
 •urllib.request
 ### API
 https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c
-心知天气api（免费获取实时温度和天气现象）
+心知天气api（免费获取温度和天气现象,该api可预知未来三天的天气/每日可免费获取400次）
 
 Web App动作描述
 
