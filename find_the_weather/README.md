@@ -32,7 +32,7 @@ Find_the_weather
 
 後端伺服器web 响应：[find_the_weather_4web.py](find_the_weather_4web.py) 中 执行 了@app.route('/') 下的 entry_page()函数，以HTML模版  [templates/entry.html](templates/entry.html)会出现《欢迎使用天气查询工具》的HTML页面
 
-前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'city’和‘date’，详见HTML  [templates/entry.html](templates/entry.html)，使用了HTML5的datalist 定义在 list="name"" 及 datalist标签
+前端浏览器收到web 响应：出现HTML页面有HTML表单的输入 input 类型(type) 为"text"，变数名称(name)为'city’和‘date’，详见HTML  [templates/entry.html](templates/entry.html)，使用了HTML5的datalist 定义在 list="name"" 及 datalist标签，
 前端浏览器web 请求：用户选取指标後按了提交钮「寻找」，则产生新的web 请求，按照form元素中定义的method='POST' action='/pick_a_date'，以POST为方法，动作为／[main.py](main.py)请求
 
 後端服务器收到用户web 请求，匹配到@app.route('/pick_a_date', methods=['POST'])的函数 pick_a_date()
