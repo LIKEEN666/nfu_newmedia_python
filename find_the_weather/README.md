@@ -16,9 +16,11 @@ Find_the_weather
 •[requests](http://www.python-requests.org/en/master/)
 ### 数据
 •[city_name.txt](city_name.txt)
+其中包含503个城市name及其code
 ### API
 [https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c](https://api.seniverse.com/v3/weather/now.json?key=hfkphvdhmqghnrfq&location=guangzhou&language=zh-Hans&unit=c)
 心知天气api（免费获取温度和天气现象,该api可预知未来三天的天气/每日可免费获取400次）
+变量为city_name
 
 # Web App动作描述
 
