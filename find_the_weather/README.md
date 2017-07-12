@@ -10,7 +10,8 @@ Find_the_weather
 ## 输入：
 用户输入日期，城市  见  [templates/entry.html](templates/entry.html)
 ## 输出：
-预期用户得到输出结果为：所对应的天气温度和天气现象（例如小雨，晴，暴雨等等），  见  [templates/results.html](templates/results.html)
+预期用户得到输出结果为：所对应的天气温度和天气现象（例如小雨，晴，暴雨等等）， 
+见  [templates/results.html](templates/results.html)
 ## 从输入到输出，本组作品使用了：
 ### 模块
 •[requests](http://www.python-requests.org/en/master/)
