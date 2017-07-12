@@ -8,7 +8,8 @@ Find_the_weather
 	
 
 ## 输入：
-用户输入日期，城市  见  [templates/entry.html](templates/entry.html)
+用户输入日期，城市 交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)
+具体详情见  [templates/entry.html](templates/entry.html)
 ## 输出：
 预期用户得到输出结果为：所对应的天气温度和天气现象（例如小雨，晴，暴雨等等）， 
 见  [templates/results.html](templates/results.html)
