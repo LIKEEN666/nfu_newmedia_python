@@ -9,7 +9,7 @@ def pick_a_date() -> 'html':
     date = request.form['date'] #输入日期
     city = request.form['city'] #输入城市名称
     results = find_the_weather #输出有关日期和城市的相关天气
-    return render_template('results.html',#return是返回数值的意思，将模板写在 单独的模板文件里，使用render_template()函数进行渲染：
+    return render_template('results.html',#return是返回数值的意思，将模板写在单独的模板文件里，使用render_template()函数进行渲染：
                            the_title = '以下是您所查询的天气：',#请求返回title和data.
                            the_date=date,
                            the_temperature=results[1],
