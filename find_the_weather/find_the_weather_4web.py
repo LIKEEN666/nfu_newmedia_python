@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, escape
 
 app = Flask(__name__) #初始化生成一个app对象，这个对象就是Flask的当前实例对象，后面的各个方法调用都是这个实例，Flask会进行一系列自己的初始化
 
-@app.route('/pick_a_date', methods=['POST'])
+@app.route('/pick_a_date', methods=['POST']) #method是function与对象的结合。我们调用一个方法的时候，有些参数是隐含的传递过去的。
 def pick_a_date() -> 'html':
     date = request.form['date'] #输入日期
     city = request.form['city'] #输入城市名称
