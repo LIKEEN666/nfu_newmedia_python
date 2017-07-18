@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, escape#在flash文件夹下�
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/')#@app.route是“装饰器”，接受route为参数，返回一个新的函数。
 @app.route('/entry')
 def entry_page() -> 'html':#抓取html资料
     """Display this webapp's HTML form."""
