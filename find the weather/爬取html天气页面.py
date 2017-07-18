@@ -1,7 +1,7 @@
 Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)] on win32
 Type "copyright", "credits" or "license()" for more information.
 >>> import requests
->>> r=requests.get("http://m.weather.com.cn/mweather/101280101.shtml")
+>>> r=requests.get("http://m.weather.com.cn/mweather/101280101.shtml")#导入requests包，在get请求中连接测试。
 >>> r.status_code
 200
 >>> r.encoding
