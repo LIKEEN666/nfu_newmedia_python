@@ -20,7 +20,7 @@ def pick_a_date() -> 'html':
 @app.route('/')#@app.route是“装饰器”，接受route为参数，返回一个新的函数。
 @app.route('/entry')
 def entry_page() -> 'html':
-    """Display this webapp's HTML form."""
+    """Display this webapp's HTML form.""" #显示此webapp的html表单
     return render_template('entry.html',#render_template的功能是先引入results.html，同时根据后面传入的参数，对html进行修改渲染。
                            the_title='欢迎来到网上天气查询！')#返回输入title界面。
 
