@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
 
-app = Flask(__name__) #初始化生成一个app对象，这个对象就是Flask的当前实例对象，后面的各个方法调用都是这个实例
+app = Flask(__name__) #初始化生成一个app对象，这个对象就是Flask的当前实例对象，后面的各个方法调用都是这个实例，Flask会进行一系列自己的初始化
 
 @app.route('/pick_a_date', methods=['POST'])
 def pick_a_date() -> 'html':
