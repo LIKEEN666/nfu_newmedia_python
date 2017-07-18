@@ -19,6 +19,6 @@ def pick_a_date() -> 'html':
                            the_date = user_date,
                            )
 
-if __name__ == '__main__':
+if __name__ == '__main__': #_name_为命名空间
     app.run(debug=True)
     
