@@ -29,5 +29,5 @@ def entry_page() -> 'html':
 
                         
 if __name__ == '__main__':#__main__为命名空间，__name__是指示当前py文件调用方式的方法。如果它等于"__main__"就表示是直接执行.
-    app.run(debug=True)
+    app.run(debug=True) #debug通常称为调试版本，通过一系列编译选项的配合，编译的结果通常包含调试信息，而且不做任何优化，以为开发 人员提供强大的应用程序调试能力。而
     
