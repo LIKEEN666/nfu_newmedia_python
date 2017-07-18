@@ -1,11 +1,7 @@
 Find_the_weather
-
-
 		
 # 简介 
 通过选取日期以及城市 查询天气
-
-	
 
 ## 输入：
 用户输入日期，城市 交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)
@@ -47,6 +43,3 @@ find_the_weather_4web.py 中 def pick_a_date() 函数，把用户提交的数据
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
-
-
-
