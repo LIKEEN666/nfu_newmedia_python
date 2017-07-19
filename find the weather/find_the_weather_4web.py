@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, escape#在flash文件夹下�
 app = Flask(__name__)#app是Flask的实例，它接收包或者模块的名字作为参数，但一般都是传递__name__。 
 
 @app.route('/')#@app.route是“装饰器”，接受route为参数，返回一个新的函数。
-@app.route('/entry')
+@app.route('/entry')#返回entry当中。
 def entry_page() -> 'html':#抓取html资料
     """Display this webapp's HTML form."""
     return render_template('entry.html',
