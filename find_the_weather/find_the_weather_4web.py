@@ -6,9 +6,9 @@ app = Flask(__name__) #初始化生成一个app对象，这个对象就是Flask�
 
 @app.route('/pick_a_date', methods=['POST']) #method是function与对象的结合。我们调用一个方法的时候，有些参数是隐含的传递过去的。
 def pick_a_date() -> 'html':
-    date = request.form['date'] #输入日期
-    city = request.form['city'] #输入城市名称
-    results = find_the_weather #输出有关日期和城市的相关天气
+    date = request.form['date'] 
+    city = request.form['city'] 
+    results = find_the_weather 
     return render_template('results.html',#return是返回数值的意思，将模板写在单独的模板文件里，使用render_template()函数进行渲染：
                            the_title = '以下是您所查询的天气：',#请求返回title和data.
                            the_date=date,
