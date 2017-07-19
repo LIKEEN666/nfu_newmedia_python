@@ -1,7 +1,7 @@
  # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape#在flash文件夹下找所有的python文件，找文件中类名称，符合的导入
 
-app = Flask(__name__)
+app = Flask(__name__)#app是Flask的实例，它接收包或者模块的名字作为参数，但一般都是传递__name__。 
 
 @app.route('/')#@app.route是“装饰器”，接受route为参数，返回一个新的函数。
 @app.route('/entry')
