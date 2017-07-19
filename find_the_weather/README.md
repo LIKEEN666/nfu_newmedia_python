@@ -1,7 +1,7 @@
 Find_the_weather
 		
 # 简介 
-通过选取日期以及城市 查询天气
+Find_the_weather是一个通过用户输入所要选取的日期以及相关的城市名，来查询所选取时间段的该城市的天气预报，简单获取到天气实况！
 
 ## 输入：
 用户输入日期，城市 交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)
