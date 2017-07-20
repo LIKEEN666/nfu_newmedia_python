@@ -12,6 +12,7 @@ Find_the_weather是可以实现用户通过输入所要选取的日期以及相�
 ## 从输入到输出，本组作品使用了：
 ### 模块
 •[requests](http://www.python-requests.org/en/master/)
+json
 ### 数据
 •[city_name.txt](city_name.txt)
 其中包含503个城市name及其code
