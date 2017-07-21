@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape#在flash文件夹下找所有的python文件，找文件中类名称，符合的便导入
 from main import find_the_weather
